@@ -1,0 +1,36 @@
+name: 'Banking_System'
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  cupertino_icons: ^1.0.6
+  sqflite: ^2.3.3
+
+dependency_overrides:
+  material_color_utilities: ^0.12.0
+  flutter_lints: ^4.0.0
+  collection: ^1.19.0
+  string_scanner: ^1.3.0
+  test_api: ^0.7.3
+
+dev_dependencies: 
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/logo.jpg
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  image_path: "assets/logo.jpg"
+  min_sdk_android: 21
+
